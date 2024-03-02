@@ -1,0 +1,236 @@
+:root {
+  --link-color: #ffffff;
+  --social-link-color: #434455;
+  --link-color_hover: #2e2f42;
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+* {
+  font-family: var(--text-font-family);
+}
+
+.global-header {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.logo {
+  width: 261px;
+  height: 24px;
+}
+
+.webstudio .png .web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.webstudio .png .studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.global-header a.hover {
+  color: var=(--link-color_hover);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  width: 261px;
+  height: 24px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-info .reversed {
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+
+.container-info .reversed {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-button a.hover {
+  font-family: "Roboto", sans-serif;
+  width: 586px;
+  height: 48px;
+  top: 168px;
+  left: 427px;
+  gap: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-all {
+  background-color: #404bbf;
+  border-radius: 4px;
+  color: var(--link-color);
+  width: 69px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.button-webstile {
+  background-color: #404bbf;
+  border-radius: 4px;
+  color: #f4f4fd;
+  width: 116px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px;
+}
+
+.button-app {
+  background-color: #404bbf;
+  border-radius: 4px;
+  color: #f4f4fd;
+  width: 78px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px;
+}
+
+.button-designe {
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  color: #f4f4fd;
+  width: 101px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-marketing {
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  color: #f4f4fd;
+  width: 126px;
+  height: 48px;
+  padding: 12px, 24px, 12px, 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.flex-container {
+  width: 1128px;
+  height: 420px;
+  top: 288px;
+  left: 156px;
+  border: 1px;
+  color: #fff;
+}
+
+/*
+.cards {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-flow: wrap;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+}
+.card {
+  flex: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.card img {
+  max-width: 100%;
+}
+.card .text {
+  padding: 0 20px 20px;
+}
+*/
+
+.logo::after {
+  content: "STUDIO";
+  color: #2e2f42;
+}
+
+.footer-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+}
+
+.global-footer .footer-title {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+  width: 1440px;
+  height: 312px;
+  top: 72px;
+}
+
+.logo-footer::after {
+  content: "STUDIO";
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+  width: 115px;
+  height: 24px;
+}
