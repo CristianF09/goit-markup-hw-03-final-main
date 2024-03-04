@@ -3,150 +3,190 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio</title>
+    <title>WEB STUDIO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/Portofolio.css" />
   </head>
-
   <body>
     <header class="global-header">
-      <div class="container-menu">
-        <link rel="STUDIO" href="index.html" />
-        <a href="index.html" class="logo">WEB</a>
-        <a href="index.html">Studio</a>
-        <a href="Portofolio.html">Portofolio</a>
-        <a href="Conctacts.html">Conctacts</a>
-      </div>
-      <div class="container-info reversed">
-        <a href="mailto:info@devstudio.com">mailto:info@devstudio.com</a>
-        <a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a>
+      <div class="container">
+        <a href="./index.html" class="logo webstudio">
+          <span>Web</span>Studio</a>
+        <nav>
+          <ul class="nav-links top-line">
+            <li class="nav-links-menu">
+              <a href="./index.html" class="webstudio">Studio</a>
+            </li>
+            <li class="nav-links-item">
+              <a href="./portofolio.html" class="webstudio">Portofolio</a>
+            </li>
+            <li class="nav-links-item">
+              <a href="contacts.html" class="webstudio">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact top-line">
+          <li>
+            <a href="mailto:info@devstudio.com" class="mail-menu"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+11 (000) 111-11-11" clss="mail-phone"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <section class="container-button">
-        <div class="button">
-          <button type="button" class="button-all">All</button>
-          <button type="button" class="button-website">Web Site</button>
-          <button type="button" class="button-website">App</button>
-          <button type="button" class="button-designe">Design</button>
-          <button type="button" class="button-marketing">Marketing</button>
+        <div class="container">
+          <ul class="main-links button-active">
+            <li class="main-links-menu">
+              <button type="button" class="button-all">All</button>
+            </li>
+            <li class="main-links-menu">
+              <button type="button" class="button-website">Web Site</button>
+            </li>
+            <li class="main-links-menu">
+              <button type="button" class="button-website">App</button>
+            </li>
+            <li cclass="main-links-menu">
+              <button type="button" class="button-designe">Design</button>
+            </li>
+            <li class="main-links-menu">
+              <button type="button" class="button-marketing">Marketing</button>
+            </li>
+          </ul>
         </div>
-      </section>
-      <div class="flex-container">
-        <div class="flex-box">
-          <img
-            src="./images.portofolio/img (12).jpg"
-            alt="Banking App Interface Concept"
-            width="360px"
-            height="300px"
-          />
-            <h3>Banking App Interface Concept</h3>
-            <p>APP</p>
-          </div>
-        </div>
-        <div class="flex-box">
-          <img
-            src="./images.portofolio/img (13).jpg"
-            alt="Cashless Payment"
-            width="360px"
-            height="300px"
-          />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
-          </div>
-        </div>
-        <div class="flex-box">
-          <img
-            src="./images.portofolio/img (5).jpg"
-            alt="Meditation App"
-            width="360px"
-            height="300px"
-          />
-            <h3>Meditation App</h3>
-            <p>APP</p>
-          </div>
-        </div>
-      </div>
-      <sections class="flex-container">
-        <div class="card">
-          <img
-            src="./images.portofolio/img (8).jpg"
-            alt="Taxi Service"
-            width="360px"
-            height="300px"
-          />
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
-        </div>
-        <div class="card">
-          <img
-            src="./images.portofolio/img (7).jpg"
-            alt="Screen Illustrations"
-            width="360px"
-            height="300px"
-          />
-          <h3>Screen Illustrations</h3>
-          <p>Design</p>
-        </div>
-        <div class="card">
-          <img
-            src="./images.portofolio/img (6).jpg"
-            alt="Online Courses"
-            width="360px"
-            height="300px"
-          />
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
+      <!-- Project 1 -->  
+      <sections class="project1-section">
+        <div class="container">
+          <ul class="presentation-image">
+            <li class="project1-card1">
+              <img class="project1-image"
+              src="./images/images.portofolio/img (12).jpg"
+              alt="Banking App Interface Concept"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject1-title1-1">Banking App Interface Concept</h3>
+              <p class="project1-subtitle1-1">APP</p>
+            </li>
+            <li class="project1-card2">
+              <img class="project1-image"
+              src="./images/images.portofolio/img (13).jpg"
+              alt="Cashless Payment"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject1-title1-2">Cashless Payment</h3>
+              <p class="project1-subtitle1-2">Marketing</p>
+            </li>
+            <li class="project1-card3">
+              <img class="project1-image"
+              src="./images/images.portofolio/img (5).jpg"
+              alt="Meditation App"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject2-title1-3">Meditation App</h3>
+              <p class="project1-subtitle1-3">APP</p>
+            </li>
+          </ul>
         </div>
       </sections>
-      <sections class="flex-container">
-        <div class="card">
-          <img
-            src="./images.portofolio/img (9).jpg"
-            alt="Instagram Stories Concept"
-            width="360px"
-            height="300px"
-          />
-          <h3>Instagram Stories Concept</h3>
-          <p>Design</p>
+      <!-- Project 2 -->  
+      <sections class="project2-section">
+        <div class="container">
+          <ul class="presentation-image">
+            <li class="project2-card1">
+              <img class="project2-image"
+              src="./images/images.portofolio/img (8).jpg"
+              alt="Taxi Service"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject2-title2-1">Taxi Service</h3>
+              <p class="project2-subtitle2-1">Marketing</p>
+            </li>
+            <li class="project2-card2">
+              <img class="project2-image"
+              src="./images/images.portofolio/img (7).jpg"
+              alt="Screen Illustrations"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject2-title2-2">Screen Illustrations</h3>
+              <p class="project2-subtitle2-2">Design</p>
+            </li>
+            <li class="project2-card3">
+              <img class="project2-image"
+              src="./images/images.portofolio/img (6).jpg"
+              alt="Online Courses"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject2-title2-3">Online Courses</h3>
+              <p class="project2-subtitle2-3">Marketing</p>
+            </li>
         </div>
-        <div class="card">
-          <img
-            src="./images.portofolio/img (10).jpg"
-            alt="Organic Food"
-            width="360px"
-            height="300px"
-          />
-          <h3>Organic Food</h3>
-          <p>Web Site</p>
-        </div>
-        <div class="card">
-          <img
-            src="./images.portofolio/img (11).jpg"
-            alt="Fresh Coffee"
-            width="360px"
-            height="300px"
-          />
-          <h3>Fresh Coffee</h3>
-          <p>Web Site</p>
-        </div>
+      </sections>
+      <!-- Project 3 -->  
+      <sections class="project3-section">
+        <div class="container">
+          <ul class="presentation-image">
+            <li class="project3-card1">
+              <img class="project3-image"
+              src="./images/images.portofolio/img (9).jpg"
+              alt="Instagram Stories Concept"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject3-title3.1">Instagram Stories Concept</h3>
+              <p class="project3-subtitle3.1">Design</p>
+            </li>
+            <li class="project3-card2">
+              <img class="project3-image"
+              src="./images/images.portofolio/img (10).jpg"
+              alt="Organic Food"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject3-title3.2">Organic Food</h3>
+              <p class="project3-subtitle3.2">Web Site</p>
+            </li>
+            <li class="project3-card3">
+              <img class="project3-image"
+              src="./images/images.portofolio/img (11).jpg"
+              alt="Fresh Coffee"
+              width="360px"
+              height="300px"
+              />
+              <h3 class="poject3-title3.3">Fresh Coffee</h3>
+              <p class="project3-subtitle3.3">Web Site</p>
+            </li>
+          </ul>
+        </div> 
       </sections>
     </main>
-    <footer>
-      <section class="global-footer">
-        <link rel="STUDIO" href="index.html" />
-        <a href="index.html" class="logo-footer">WEB</a>
+    <!-- Footer-->
+    <footer class="global-footer">
+      <div class="container">
+        <a href="./index.html" class="logo webstudio logo-footer">
+          <span>WEB</span>STUDIO</a>
         <br />
-        <div class="footer-title">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </div>
-      </section>
+        <p class="footer-title">
+          Increase the flow of customers and <br>
+          sales for your business with digital <br>
+          marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
