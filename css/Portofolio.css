@@ -54,6 +54,10 @@ main {
 
 .global-header .container {
   align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 200px;
+  top: 0px;
 }
 
 .logo {
@@ -128,8 +132,12 @@ main {
 /* -- Main Button --*/
 .main-links {
   display: flex;
-  align-items: center;
   cursor: pointer;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 400px;
+  top: 0px;
 }
 
 .main-links-menu {
@@ -139,6 +147,15 @@ main {
   left: 427px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a:link,
+a:visited {
+  display: block;
+}
+
 .button-all {
   background-color: #404bbf;
   border-radius: 4px;
@@ -146,8 +163,7 @@ main {
   width: 69px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
-  font-size: 16px;
-  line-height: 24px;
+  border: 1px;
   text-align: center;
   cursor: pointer;
 }
@@ -155,12 +171,11 @@ main {
 .button-webstile {
   background-color: #404bbf;
   border-radius: 4px;
-  color: #f4f4fd;
+  color: var(--link-color);
   width: 116px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
-  font-size: 16px;
-  line-height: 24px;
+  border: 1px;
   text-align: center;
   cursor: pointer;
 }
@@ -168,12 +183,11 @@ main {
 .button-app {
   background-color: #404bbf;
   border-radius: 4px;
-  color: #f4f4fd;
+  color: var(--link-color);
   width: 78px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
-  font-size: 16px;
-  line-height: 24px;
+  border: 1px;
   text-align: center;
   cursor: pointer;
 }
@@ -181,12 +195,11 @@ main {
 .button-designe {
   background-color: #404bbf;
   border-radius: 4px;
-  color: #f4f4fd;
+  color: var(--link-color);
   width: 101px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
-  font-size: 16px;
-  line-height: 1.5;
+  border: 1px;
   text-align: center;
   cursor: pointer;
 }
@@ -194,12 +207,11 @@ main {
 .button-marketing {
   background-color: #404bbf;
   border-radius: 4px;
-  color: #f4f4fd;
+  color: var(--link-color);
   width: 126px;
   height: 48px;
   padding: 12px, 24px, 12px, 24px;
-  font-size: 16px;
-  line-height: 1.5;
+  border: 1px;
   text-align: center;
   cursor: pointer;
 }
@@ -544,6 +556,9 @@ main {
 
 .global-footer .container {
   flex-direction: column;
+  position: relative;
+  left: 20px;
+  top: 100px;
 }
 
 .footer-logo {

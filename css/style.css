@@ -54,6 +54,10 @@ main {
 
 .global-header .container {
   align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 250px;
+  top: 0px;
 }
 
 .logo {
@@ -128,6 +132,7 @@ main {
 /* -- Hero Style -- */
 
 .hero-section .container {
+  background-color: var(--link-color_hover);
   flex-direction: column;
   align-items: center;
   gap: 30px;
@@ -142,14 +147,19 @@ main {
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 350px;
+  top: 200px;
 }
 
 .hero-section .hero-title {
-  background-color: var(--link-color_hover);
   font-family: "Roboto", sans-serif;
   top: 72px;
+  width: 1200px;
+  height: 600px;
 }
 
 .button-service {
@@ -157,15 +167,16 @@ main {
   background-color: #4d5ae5;
   border-radius: 4px;
   color: var(--link-color);
-  /*
   width: 169px;
   height: 56px;
-  */
   top: 428px;
   padding: 16px, 32px, 16px, 32px;
   font-size: 16px;
   line-height: 24px;
   gap: 10px;
+  position: relative;
+  left: 20px;
+  top: -250px;
 }
 
 .button-service:hover {
@@ -280,6 +291,9 @@ main {
 
 .global-footer .container {
   flex-direction: column;
+  position: relative;
+  left: 20px;
+  top: 100px;
 }
 
 .footer-logo {
